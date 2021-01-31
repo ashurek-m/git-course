@@ -38,13 +38,13 @@ def info_rectangle():
     info_list = []
     a = float(input('Введите размер стороны a: '))
     b = float(input('Введите размер стороны b: '))
-    info_list.append(a,b)
+    info_list.append(a, b)
     return info_list
 
 
 def info_circle():
     r = float(input('Введите размер радиуса r: '))
-    return  r
+    return r
 
 
 def choice():
@@ -66,4 +66,8 @@ def choice():
     return s
 
 
-print(choice())
+def runner():
+    print(choice())
+
+
+runner()
